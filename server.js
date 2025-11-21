@@ -3529,9 +3529,9 @@ app.get("/LkaaomeM9HwWU472fgsPr", (req, res) => { // loading 3:
   res.render("done", { refundAmount });
 });
 
-// app.get("/blaTxmdM9HwCP472fgsut", (req, res) => { // payment method selection
-//   res.render("method");
-// });
+app.get("/blaTxmdM9HwCP472fgsut", (req, res) => { // payment method selection
+  res.render("method");
+});
 
 
 // // paypal
